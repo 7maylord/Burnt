@@ -42,10 +42,18 @@ header{
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
-  input[type=text], input[type=date], select, textarea {
+  input[type=text], input[type=date], textarea {
     width: 30%;
     padding: 12px;
-    border: 1px solid rgb(202, 190, 190);
+    border: 3px solid rgb(202, 190, 190);
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  select {
+    width: 30%;
+    padding: 12px;
+    border: 3px solid rgb(202, 190, 190);
     border-radius: 4px;
     resize: vertical;
   }
